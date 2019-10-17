@@ -54,7 +54,7 @@ typedef enum {
 */
 typedef struct button
 {
-	/* 下面是一个函数指针，指向判断按键手否按下的函数 */
+	/* 下面是一个函数指针，指向判断按键是否按下的函数 */
 	uint8_t (*Read_Button_Level)(void); /* 读取按键电平函数，需要用户实现 */
   
   char Name[BTN_NAME_MAX];
